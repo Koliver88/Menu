@@ -1,0 +1,58 @@
+/* Your Styling */
+
+header {
+	background: red;
+}
+
+/* Article Headings */
+article section {
+	position: relative;
+} 
+
+article section p {
+	margin-top: 4em;
+}
+
+article h3 {
+	background: #000;
+	padding: 4px;
+
+	position: absolute;
+	left: -25px;
+	top: 0px;
+
+	text-shadow: 3px 3px 10px white;
+	text-transform: uppercase;
+}
+
+/* App */
+article section:nth-child(1) {
+	background: aqua;
+
+}
+
+/* Entree */
+article section:nth-child(2) {
+	background: blue;
+
+}
+
+/* dessert */
+article section:nth-child(3) {
+	background: green;
+
+}
+
+/* drinks */
+article section:nth-child(4) {
+	background: yellow;
+
+}
+
+footer section:nth-child(1) {
+	background: gold;
+}
+
+footer section:nth-child(2) {
+	background: purple;
+	}
